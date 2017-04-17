@@ -24,3 +24,35 @@
 #sec3{
     background-color: red;
 }
+
+.b{
+    background-color: blue;
+}
+
+.br{
+    background-color: brown;
+}
+
+.y{
+    background-color: yellow;
+}
+
+.b,.br,.y{
+    height: 350px;
+    margin-top: 25px;
+}
+
+.margin-content-image{
+    margin-top: 20px;
+}
+
+.content-image{
+    padding-top: 20px;
+    padding-bottom: 11px;
+    background-color: orange;
+}
+
+.content{
+    padding: 10px 15px 5px 15px;
+    line-height: 35px;
+}
