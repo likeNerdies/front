@@ -1,5 +1,5 @@
 $(document).on('scroll', function (e) {
-    var opacity = $(document).scrollTop() / 500
+    var opacity = $(document).scrollTop() / 500;
     $('.navbar').css('background-color', 'rgba(255, 255, 255,'+opacity);
 });
 
@@ -14,7 +14,7 @@ $(document).on('scroll', function (e) {
     });
 
     // Highlight the top nav as scrolling occurs
-    /*$('body').scrollspy({
-        target: '.navbar-fixed-top',
+    $('body').scrollspy({
+        target: '.fixed-top',
         offset: 51
-    });*/
+    });
