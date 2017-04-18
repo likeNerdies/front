@@ -14,7 +14,7 @@ $(document).on('scroll', function (e) {
     });
 
     // Highlight the top nav as scrolling occurs
-    /*$('body').scrollspy({
-        target: '.navbar-fixed-top',
+    $('body').scrollspy({
+        target: '.fixed-top',
         offset: 51
-    });*/
+    });
